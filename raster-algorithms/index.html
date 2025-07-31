@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raster Algorithms and Line Generation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Raster Algorithms and Line Generation</h1>
+    <canvas id="canvas" width="400" height="300"></canvas>
+    <div id="controls">
+        <label for="algorithm">Choose an algorithm:</label>
+        <select id="algorithm">
+            <option value="bresenham_line">Bresenham's Line</option>
+            <option value="bresenham_circle">Bresenham's Circle</option>
+            <option value="incremental_ellipse">Incremental Ellipse</option>
+            <option value="jordan_incremental">Jordan's Incremental</option>
+            <option value="dda_line">DDA Line</option>
+            <option value="wu_line">Wu's Line</option>
+        </select>
+        <button id="draw">Draw</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="algorithms/bresenham_line.js"></script>
+    <script src="algorithms/bresenham_circle.js"></script>
+    <script src="algorithms/incremental_ellipse.js"></script>
+    <script src="algorithms/jordan_incremental.js"></script>
+    <script src="algorithms/dda_line.js"></script>
+    <script src="algorithms/wu_line.js"></script>
+</body>
+</html>

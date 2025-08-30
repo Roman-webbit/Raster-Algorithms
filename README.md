@@ -1,3 +1,5 @@
+![Codewars](https://www.codewars.com/users/Roman-webbit/badges/large)
+
 # Курсова робота з растрових алгоритмів
 
 Дошка задач в Trello - https://trello.com/invite/b/HEVzGKVo/ATTIcb50be74b300df431ed16c0886bdecf941CD1EA7/курсова-робота-з-растрових-алгор
